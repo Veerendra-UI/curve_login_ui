@@ -26,12 +26,17 @@ class Register extends StatelessWidget {
                     alignment: Alignment.centerRight,
                     padding: const EdgeInsets.only(
                         right: 30.0, top: 160.0, bottom: 50.0),
-                    child: Text(
-                      "Login",
-                      style: TextStyle(
-                        fontSize: 25.0,
-                        color: Colors.deepOrangeAccent,
-                        fontWeight: FontWeight.w700,
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, "Login");
+                      },
+                      child: Text(
+                        "Login",
+                        style: TextStyle(
+                          fontSize: 25.0,
+                          color: Color.fromRGBO(8, 211, 193, 1),
+                          fontWeight: FontWeight.w700,
+                        ),
                       ),
                     ),
                   ),
@@ -135,8 +140,8 @@ class Register extends StatelessWidget {
                               begin: Alignment.centerLeft,
                               end: Alignment.centerRight,
                               colors: [
-                                Color.fromRGBO(94, 201, 202, 1.0),
-                                Color.fromRGBO(119, 235, 159, 1.0),
+                                Color.fromRGBO(30, 82, 163, 1),
+                                Color.fromRGBO(119, 235, 159, 0.3),
                               ],
                             ),
                             boxShadow: [

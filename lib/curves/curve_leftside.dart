@@ -15,8 +15,9 @@ class CurveLeft extends StatelessWidget {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [
-              Color.fromRGBO(243, 169, 95, 0.3),
-              Color.fromRGBO(235, 101, 91, 0.3)
+              Color.fromRGBO(259, 196, 83, 0.3),
+              Color.fromRGBO(259, 196, 83, 0.3),
+              Color.fromRGBO(235, 101, 91, 1.0)
             ],
           )),
         ),

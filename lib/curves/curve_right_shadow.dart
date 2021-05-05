@@ -16,12 +16,9 @@ class CurvedRightShadow extends StatelessWidget {
               begin: Alignment.bottomLeft,
               end: Alignment.topRight,
               colors: [
-                Color.fromRGBO(243, 169, 95, 0.3),
-                Color.fromRGBO(235, 101, 91, 0.3),
+                Color.fromRGBO(259, 196, 83, 0.3),
+                Color.fromRGBO(259, 196, 83, 0.3),
                 Color.fromRGBO(235, 101, 91, 1.0)
-                // Color.fromRGBO(86, 201, 251, 0.3),
-                // Color.fromRGBO(76, 170, 251, 0.3),
-                // Color.fromRGBO(235, 101, 91, 1.0)
               ],
             ),
           ),

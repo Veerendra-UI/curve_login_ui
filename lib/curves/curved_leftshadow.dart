@@ -17,7 +17,7 @@ class CurvedLeftShadow extends StatelessWidget {
               colors: [
                 Color.fromRGBO(34, 82, 160, 1),
                 Color.fromRGBO(34, 82, 160, 1),
-                Color.fromRGBO(235, 101, 91, 1.0)
+                // Color.fromRGBO(235, 101, 91, 1.0)
               ],
             ),
           ),

@@ -78,8 +78,8 @@ class Login extends StatelessWidget {
                                 begin: Alignment.centerLeft,
                                 end: Alignment.centerRight,
                                 colors: [
-                                  Color.fromRGBO(94, 201, 202, 1.0),
-                                  Color.fromRGBO(119, 235, 159, 1.0),
+                                  Color.fromRGBO(30, 82, 163, 1),
+                                  Color.fromRGBO(119, 235, 159, 0.3),
                                 ],
                               ),
                               boxShadow: [
@@ -127,7 +127,7 @@ class Login extends StatelessWidget {
                           "Register",
                           style: TextStyle(
                             fontSize: 25.0,
-                            color: Colors.deepOrangeAccent,
+                            color: Color.fromRGBO(8, 211, 193, 1),
                             fontWeight: FontWeight.w700,
                           ),
                         ),
