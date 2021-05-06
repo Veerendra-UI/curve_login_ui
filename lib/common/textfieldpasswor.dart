@@ -17,7 +17,7 @@ class TextFormPassword extends StatelessWidget {
           ),
           icon: Icon(
             Icons.looks_outlined,
-            size: 26,
+            size: 20,
           ),
           hintText: "Password",
           border: InputBorder.none),
